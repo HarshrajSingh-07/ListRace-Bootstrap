@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>ListRace-Harsh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Roboto+Slab&family=Syne&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- --------------------couter-animation---------------- -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+
+<body>
+
+<!-- --------------------------------Nav-bar-------------------------------------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="newnav">
+        <div class="container">
+            <a class="navbar-brand col-3 fw-bold d-flex justify-content-center" href="#">List<span
+                    class="text-danger">Race</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-9 justify-content-center" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#howitwork">HOW IT WORKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explore">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">REVIEW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- --------------------------------Nav-bar-------------------------------------->
+
+    <header id="home">
+        <div class="container py-3">
+            <h1 class="fw-bold mainheading">best place to find and explore<br>
+                that all you need</h1>
+            <p class="mainpera">Find Best Place, Restaurant, Hotel, Real State and many more think in just One click</p>
+            <div class="row top-form d-flex justify-content-center align-item-center pt-5 m-0">
+                <div class="col-4 d-flex bg-light top-col_1">
+                    <h3>What?</h3>
+                    <input type="text" placeholder="Ex: palce, resturent, food, automobile">
+                    <i class="fa-solid fa-bars text-dark fs-6"></i>
+                </div>
+                <div class="col-4 d-flex bg-light top-col_2">
+                    <h3>Location</h3>
+                    <input type="text" placeholder="Ex: london, newyork, rome">
+                    <i class="fa-solid fa-location-crosshairs text-dark fs-6"></i>
+                </div>
+                <div class="col-2 top-btn">
+                    <button type="button" class="btn btn-danger">search <i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!----------------------------------Main-cards-------------------------------------->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center card-row ">
+                <div class="col-sm-12 col-md-12 col-lg-2 col-xxl-2 col-xl-">
+                    <div class="card  align-items-center border-0 shadow ">
+                        <i class="fa-solid fa-store"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title">Resturent
+                            </h5>
+                            <p class="card-text">150 listings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 col-xxl-2 col-xl-2">
+                    <div class="card align-items-center border-0 shadow">
+                        <i class="fa-solid fa-suitcase-rolling"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title">destination
+                            </h5>
+                            <p class="card-text">214 listings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 col-xxl-2 col-xl-">
+                    <div class="card align-items-center border-0 shadow">
+                        <i class="fa-solid fa-hotel"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title">hotels
+                            </h5>
+                            <p class="card-text">185 listings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 col-xxl-2 col-xl-">
+                    <div class="card align-items-center border-0 shadow">
+                        <i class="fa-solid fa-hospital-user"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title">healthcaree
+                            </h5>
+                            <p class="card-text">200 listings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 col-xxl-2 col-xl-2">
+                    <div class="card  align-items-center border-0 shadow">
+                        <i class="fa-solid fa-car-side"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title">automotion
+                            </h5>
+                            <p class="card-text">120 listings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------How It Work-section-------------------------------------->
+
+    <section id="howitwork" class=" py-1">
+        <div class="container justify-content-center align-items-center mt-5">
+            <div class="hedingarea">
+                <h2>HOW IT WORKS</h2>
+                <p> Learn More about how our website works</p>
+            </div>
+            <div class="album">
+                <div class="cards-container">
+                    <div class="row justify-content-center py-5">
+                        <div class="col-md-4">
+                            <div class="card card1 mb-4 box-shadow py-5 align-items-center">
+                                <i class="fa-solid fa-lightbulb p-3"></i>
+                                <div class="card-body ">
+                                    <h5 class="card-title">Choose what to Do</h5>
+                                    <p class="card-text py-3">This is a wider card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow py-5 align-items-center">
+                                <i class="fa-solid fa-user-secret p-3"></i>
+                                <div class="card-body ">
+                                    <h5 class="card-title">Choose what to Do</h5>
+                                    <p class="card-text py-3">This is a wider card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow py-5 align-items-center">
+                                <i class="fa-solid fa-map-location-dot p-3"></i>
+                                <div class="card-body ">
+                                    <h5 class="card-title">Choose what to Do</h5>
+                                    <p class="card-text py-3">This is a wider card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------Explore--------------------------------->
+
+    <section id="explore">
+        <div class="album bg-light container-fluid py-2">
+            <div class="hedinggallary">
+                <h2>EXPLORE</h2>
+                <p>Explore New place, food, culture around the world and many more</p>
+            </div>
+            <div class="cards-container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-sm-9">
+                        <div class="card card-custom mb-4 box-shadow pt-0">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" style="width: 100%; display: block;" src="image/e1.jpg"
+                                data-holder-rendered="true">
+                            <div class="card-body gallarycard">
+                                <h2><a href="">Tommy Helfinger Bar</a></h2>
+                                <div class="rating d-flex gap-2">
+                                    <div class="rating-btn">
+                                        <button type="button" class="btn btn-primary fs-6">
+                                            5.0
+                                        </button>
+                                    </div>
+                                    <div class="gallary-rating">
+                                        <p class="mb-1"> 10 ratings</p>
+                                        <p class="mb-1 border-start">Form <span>5$-300$</span></p>
+                                        <p class="mb-1 border-start"> 10 ratings</p>
+                                    </div>
+                                </div>
+                                <div class="person d-flex gap-2">
+                                    <img src="image/person.png" width="">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center pt-2">
+                                    <div class="gallary-footer d-flex pt-3">
+                                        <div class="clear-now">
+                                            <a href="">Clear Now</a>
+                                        </div>
+                                        <div class="person-icon">
+                                            <i class="fa-solid fa-location-dot fs-6"></i>
+                                            <i class="fa-solid fa-arrow-up-from-bracket fs-6"></i>
+                                            <i class="fa-regular fa-heart fs-6"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-9">
+                        <div class="card card-custom mb-4 box-shadow pt-0">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" style="width: 100%; display: block;" src="image/e2.jpg"
+                                data-holder-rendered="true">
+                            <div class="card-body gallarycard">
+                                <h2><a href="">swim and dine resort</a></h2>
+                                <div class="rating d-flex gap-2">
+                                    <div class="rating-btn">
+                                        <button type="button" class="btn btn-success px-3 my-1 fs-6">
+                                            4.5
+                                        </button>
+                                    </div>
+                                    <div class="gallary-rating">
+                                        <p class="mb-1"> 8 ratings</p>
+                                        <p class="mb-1 border-start">Form <span>50$-500$</span></p>
+                                        <p class="mb-1 border-start"> 10 ratings</p>
+                                    </div>
+                                </div>
+                                <div class="person d-flex gap-2">
+                                    <img src="image/person.png" width="">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center pt-2">
+                                    <div class="gallary-footer d-flex pt-3">
+                                        <div class="clear-now">
+                                            <a href="">Clear Now</a>
+                                        </div>
+                                        <div class="person-icon">
+                                            <i class="fa-solid fa-location-dot fs-6"></i>
+                                            <i class="fa-solid fa-arrow-up-from-bracket fs-6"></i>
+                                            <i class="fa-regular fa-heart fs-6"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-9">
+                        <div class="card card-custom mb-4 box-shadow pt-0">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" style="width: 100%; display: block;" src="image/e3.jpg"
+                                data-holder-rendered="true">
+                            <div class="card-body gallarycard">
+                                <h2><a href="">europe tour</a></h2>
+                                <div class="rating d-flex gap-2">
+                                    <div class="rating-btn">
+                                        <button type="button" class="btn btn-warning px-3 my-1 fs-6">
+                                            5.0
+                                        </button>
+                                    </div>
+                                    <div class="gallary-rating">
+                                        <p class="mb-1"> 15 ratings</p>
+                                        <p class="mb-1 border-start">Form <span>5K$-10k</span></p>
+                                        <p class="mb-1 border-start"> 10 ratings</p>
+                                    </div>
+                                </div>
+                                <div class="person d-flex gap-2">
+                                    <img src="image/person.png" width="">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center pt-2">
+                                    <div class="gallary-footer d-flex pt-3">
+                                        <div class="clear-now">
+                                            <a href="">Clear Now</a>
+                                        </div>
+                                        <div class="person-icon">
+                                            <i class="fa-solid fa-location-dot fs-6"></i>
+                                            <i class="fa-solid fa-arrow-up-from-bracket fs-6"></i>
+                                            <i class="fa-regular fa-heart fs-6"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center pb-3">
+                    <div class="col-md-4 col-sm-9">
+                        <div class="card card-custom mb-4 box-shadow pt-0">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" style="width: 100%; display: block;" src="image/e4.jpg"
+                                data-holder-rendered="true">
+                            <div class="card-body gallarycard">
+                                <h2><a href="">Tommy Helfinger Bar</a></h2>
+                                <div class="rating d-flex gap-2">
+                                    <div class="rating-btn">
+                                        <button type="button" class="btn btn-success px-3 my-1 fs-6">
+                                            5.0
+                                        </button>
+                                    </div>
+                                    <div class="gallary-rating">
+                                        <p class="mb-1"> 11 ratings</p>
+                                        <p class="mb-1 border-start">Form <span>5$-300$</span></p>
+                                        <p class="mb-1 border-start"> 10 ratings</p>
+                                    </div>
+                                </div>
+                                <div class="person d-flex gap-2">
+                                    <img src="image/person.png" width="">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center pt-2">
+                                    <div class="gallary-footer d-flex pt-3">
+                                        <div class="clear-now">
+                                            <a href="">Clear Now</a>
+                                        </div>
+                                        <div class="person-icon">
+                                            <i class="fa-solid fa-location-dot fs-6"></i>
+                                            <i class="fa-solid fa-arrow-up-from-bracket fs-6"></i>
+                                            <i class="fa-regular fa-heart fs-6"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-9">
+                        <div class="card card-custom mb-4 box-shadow pt-0">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" style="width: 100%; display: block;" src="image/e5.jpg"
+                                data-holder-rendered="true">
+                            <div class="card-body gallarycard">
+                                <h2><a href="">Tommy Helfinger Bar</a></h2>
+                                <div class="rating d-flex gap-2">
+                                    <div class="rating-btn">
+                                        <button type="button" class="btn btn-danger px-3 my-1 fs-6">
+                                            4.2
+                                        </button>
+                                    </div>
+                                    <div class="gallary-rating">
+                                        <p class="mb-1"> 07 ratings</p>
+                                        <p class="mb-1 border-start">Form <span>5$-300$</span></p>
+                                        <p class="mb-1 border-start"> 10 ratings</p>
+                                    </div>
+                                </div>
+                                <div class="person d-flex gap-2">
+                                    <img src="image/person.png" width="">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center pt-2">
+                                    <div class="gallary-footer d-flex pt-3">
+                                        <div class="clear-now">
+                                            <a href="">Clear Now</a>
+                                        </div>
+                                        <div class="person-icon">
+                                            <i class="fa-solid fa-location-dot fs-6"></i>
+                                            <i class="fa-solid fa-arrow-up-from-bracket fs-6"></i>
+                                            <i class="fa-regular fa-heart fs-6"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-9">
+                        <div class="card card-custom mb-4 box-shadow pt-0">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" style="width:100%; display: block;" src="image/e6.jpg"
+                                data-holder-rendered="true">
+                            <div class="card-body gallarycard">
+                                <h2><a href="">Tommy Helfinger Bar</a></h2>
+                                <div class="rating d-flex gap-2">
+                                    <div class="rating-btn">
+                                        <button type="button" class="btn btn-primary px-3 my-1 fs-6">
+                                            5.0
+                                        </button>
+                                    </div>
+                                    <div class="gallary-rating">
+                                        <p class="mb-1"> 83 ratings</p>
+                                        <p class="mb-1 border-start">Form <span>5$-300$</span></p>
+                                        <p class="mb-1 border-start"> 10 ratings</p>
+                                    </div>
+                                </div>
+                                <div class="person d-flex gap-2">
+                                    <img src="image/person.png" width="">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center pt-2">
+                                    <div class="gallary-footer d-flex pt-2">
+                                        <div class="clear-now">
+                                            <a href="">Clear Now</a>
+                                        </div>
+                                        <div class="person-icon">
+                                            <i class="fa-solid fa-location-dot fs-6"></i>
+                                            <i class="fa-solid fa-arrow-up-from-bracket fs-6"></i>
+                                            <i class="fa-regular fa-heart fs-6"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------------slider----------------------- -->
+    <section id="review">
+        <div class="container">
+            <div class="hedinggallary">
+                <h2>clients reviews</h2>
+                <p>What our client say about us</p>
+            </div>
+        </div>
+        <div class="owl-slider pb-4">
+            <div id="carousel" class="owl-carousel">
+                <div class="item">
+                    <div class="entry pt-3">
+                        <div class="imgslider">
+                            <img src="image/c1.png" alt="Smiling person" />
+                        </div>
+                        <h2 class="name">John Doe</h2>
+                        <span>london , Uk</span>
+                        <ul class="list-unstyled d-flex text-warning">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="quote">"Man, I think this app freaking rocks and stuff. Dude."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="entry pt-3">
+                        <div class="imgslider">
+                            <img src="image/c2.png" alt="Smiling person" />
+                        </div>
+                        <h2 class="name">Tom Leaker</h2>
+                        <span>london , Uk</span>
+                        <ul class="list-unstyled d-flex text-warning">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="quote">"Man, I think this app freaking rocks and stuff. Dude."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="entry pt-3">
+                        <div class="imgslider">
+                            <img src="image/c3.png" alt="Smiling person" />
+                        </div>
+                        <h2 class="name">monirul islam</h2>
+                        <span>london , Uk</span>
+                        <ul class="list-unstyled d-flex text-warning">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="quote">"Man, I think this app freaking rocks and stuff. Dude."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="entry pt-3">
+                        <div class="imgslider">
+                            <img src="image/c4.png" alt="Smiling person" />
+                        </div>
+                        <h2 class="name">Shohrab Hossain</h2>
+                        <span>london , Uk</span>
+                        <ul class="list-unstyled d-flex text-warning">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="quote">"Man, I think this app freaking rocks and stuff. Dude."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="entry pt-3">
+                        <div class="imgslider">
+                            <img src="image/c3.png" alt="Smiling person" />
+                        </div>
+                        <h2 class="name">monirul islam</h2>
+                        <span>london , Uk</span>
+                        <ul class="list-unstyled d-flex text-warning">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="quote">"Man, I think this app freaking rocks and stuff. Dude."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="entry pt-3">
+                        <div class="imgslider">
+                            <img src="image/c4.png" alt="Smiling person" />
+                        </div>
+                        <h2 class="name">Shohrab Hossain</h2>
+                        <span>london , Uk</span>
+                        <ul class="list-unstyled d-flex text-warning">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="quote">"Man, I think this app freaking rocks and stuff. Dude."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="entry pt-3">
+                        <div class="imgslider">
+                            <img src="image/c3.png" alt="Smiling person" />
+                        </div>
+                        <h2 class="name">monirul islam</h2>
+                        <span>london , Uk</span>
+                        <ul class="list-unstyled d-flex text-warning">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="quote">"Man, I think this app freaking rocks and stuff. Dude."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------------Couter-number-section----------------------- -->
+
+    <section class="sticky-area">
+        <div class="sticky-back">
+            <div class="row justify-content-center container w-100 h-100 m-auto p-3">
+                <div class="col-10 col-sm-5 col-md-3  d-flex align-items-center justify-content-center">
+                    <div class="counter-container ">
+                        <div class="count-num d-flex justify-content-center align-items-center">
+                            <div class="counter" data-target="90">
+                            </div>
+                            <span>K+</span>
+                        </div>
+                        <h3 class="text-center">listings</h3>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-5 col-md-3  d-flex align-items-center justify-content-center">
+                    <div class="counter-container ">
+                        <div class="count-num d-flex justify-content-center align-items-center">
+                            <div class="counter" data-target="40">
+                            </div>
+                            <span>K+</span>
+                        </div>
+                        <h3 class="text-center">listing categories</h3>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-5 col-md-3  d-flex align-items-center justify-content-center  ">
+                    <div class="counter-container ">
+                        <div class="count-num d-flex justify-content-center align-items-center">
+                            <div class="counter" data-target="65">
+                            </div>
+                            <span>K+</span>
+                        </div>
+                        <h3 class="text-center">visitors</h3>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-5 col-md-3  d-flex align-items-center justify-content-center">
+                    <div class="counter-container ">
+                        <div class="count-num d-flex justify-content-center align-items-center">
+                            <div class="counter" data-target="50">
+                            </div>
+                            <span>K+</span>
+                        </div>
+                        <h3 class="text-center">happy clients</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------Blog---------------------------------------- -->
+
+    <section id="blog">
+        <div class="py-2 cards-container">
+            <div class="hedinggallary">
+                <h2>NEWS AND ARTICLES</h2>
+                <p>Always upto date with our latest News and Articles</p>
+            </div>
+            <div class="row justify-content-center py-3 px-3">
+                <div class="col-md-4 col-sm-9">
+                    <div class="card news-hov mb-4 box-shadow pt-0">
+                        <img src="image/b1.jpg" alt="news-Feed">
+                        <div class="card-body news-head">
+                            <h2 class=" d-flex justify-content-start"><a href="">How to find your Desired Place more
+                                    quickly</a></h2>
+                            <div class="posted d-flex justify-content-start">
+                                <h4>posted by <a href="">ADMIN</a> March 2018</h4>
+                            </div>
+                            <div class="news-feed text-start">
+                                <p>Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod
+                                    tempore incididunt ut labore et dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-9">
+                    <div class="card news-hov mb-4 box-shadow pt-0">
+                        <img src="image/b2.jpg" alt="news-Feed">
+                        <div class="card-body news-head">
+                            <h2 class=" d-flex justify-content-start"><a href="">How to find your Desired Place more
+                                    quickly</a></h2>
+                            <div class="posted d-flex justify-content-start">
+                                <h4>posted by <a href="">ADMIN</a> March 2018</h4>
+                            </div>
+                            <div class="news-feed text-start">
+                                <p>Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod
+                                    tempore incididunt ut labore et dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-9">
+                    <div class="card news-hov mb-4 box-shadow pt-0">
+                        <img src="image/b3.jpg" alt="news-Feed">
+                        <div class="card-body news-head">
+                            <h2 class=" d-flex justify-content-start"><a href="">How to find your Desired Place more
+                                    quickly</a></h2>
+                            <div class="posted d-flex justify-content-start">
+                                <h4>posted by <a>ADMIN</a> March 2018</h4>
+                            </div>
+                            <div class="news-feed text-start">
+                                <p>Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod
+                                    tempore incididunt ut labore et dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------Sign-up Form-------------------------------------->
+
+    <section id="myaccount " class="bg-light container-fluid py-5">
+        <div class="container d-flex justify-content-center align-items-center py-5">
+            <div class="login-form text-center">
+                <h2 class="mb-3">
+                    do you want to add your business listing with us?
+                </h2>
+                <p class="mb-5">
+                    Listrace offer you to list your business with us and we very much able to promote your Business.
+                </p>
+                <form action="sign up" class="email-form">
+                    <input type="text" placeholder="Enter your email here" class="border-0">
+                    <button form="submit">Create Account</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------Footer-Section-------------------------------------->
+    <footer id="footer">
+        <div class="container">
+            <div class="row f-row">
+                <div
+                    class="f-logo col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-5 justify-content-center align-items-center">
+                    <a class="navbar-brand fw-bold d-flex" href="#">List<span class="text-danger">Race</span></a>
+                </div>
+                <div
+                    class="f-manu col-xs-12 col-sm-12 col-md-12 col-lg-8  col-xl-7 d-flex justify-content-center align-items-center">
+                    <ul class="d-flex  mb-0">
+                        <li><a href="#howitwork">how it work</a></li>
+                        <li><a href="#explore">explore</a></li>
+                        <li><a href="#review">review</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <li><a href="#myaccount">my account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="contact"
+                class="d-flex flex-column flex-sm-row justify-content-between align-item-center pt-4 copyright-sec">
+                <p class="text-center">© 2022 Company, Inc. All rights reserved.</p>
+                <span>
+                    <i class="fa fa-phone"> +1 (222) 777 8888</i>
+                </span>
+                <ul class="list-unstyled d-flex justify-content-start align-item-center">
+                    <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>$(function () {
+            // Owl Carousel
+            var owl = $(".owl-carousel");
+            owl.owlCarousel({
+                items: 3,
+                margin: 10,
+                loop: true,
+                nav: true
+            });
+        });
+    </script>
+    <script>
+        const counters = document.querySelectorAll(".counter");
+
+        counters.forEach((counter) => {
+            counter.innerText = "0";
+            const updateCounter = () => {
+                const target = +counter.getAttribute("data-target");
+                const count = +counter.innerText;
+                const increment = target / 200;
+                if (count < target) {
+                    counter.innerText = `${Math.ceil(count + increment)}`;
+                    setTimeout(updateCounter, 15);
+                } else counter.innerText = target;
+            };
+            updateCounter();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5b57fcf316.js" crossorigin="anonymous">
+    </script>
+    <script>
+        jQuery("#carousel").owlCarousel({
+            autoplay: true,
+            rewind: true, /* use rewind if you don't want loop */
+            margin: 20,
+            /*
+           animateOut: 'fadeOut',
+           animateIn: 'fadeIn',
+           */
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 800,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+                600: {
+                    items: 3
+                },
+
+                1024: {
+                    items: 4
+                },
+
+                1366: {
+                    items: 4
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
